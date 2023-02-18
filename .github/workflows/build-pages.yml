@@ -42,7 +42,7 @@ jobs:
         run: hugo --minify
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/gh-pages@v3
+        uses: actions/gh-pages@v1
         with:
           publish_branch: gh-pages
           publish_dir: ./public
