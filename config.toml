@@ -27,7 +27,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "light"
+  defaultTheme = "auto"
   # dateFormat = "2006-01-02"
   [params.header]
     # header mode ["fixed", "normal", "auto"]
