@@ -1,0 +1,25 @@
+{{- if ne .Site.Params.footer.enable false -}}
+    <footer class="footer" style="width: auto; padding: 0 1rem;">
+        <div class="footer-container "
+            style="display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 1rem 0 1rem;
+                "
+        >
+            <span>NCKong © 2023</span>
+            <span class="social-icons">
+                <a href="https://github.com/nckong" title="GitHub" target="_blank" rel="noopener noreffer me">
+                    <i class="fab fa-github fa-fw" aria-hidden="true"></i>
+                </a>
+                <a href="/index.xml" title="RSS" target="_blank" rel="noopener noreffer me">
+                    <i class="fas fa-rss fa-fw" aria-hidden="true"></i>
+                </a>
+            </span>
+            <a href="/support" style="box-shadow: 0 1px;">Support me <i class="far fa-heart fa-fw" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+{{- end -}}

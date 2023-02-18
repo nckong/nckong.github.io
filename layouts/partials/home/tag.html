@@ -1,0 +1,16 @@
+{{- $tag := .Site.Params.home.tag -}}
+
+<ul class="terms-tags-top resize-tags">
+    {{- range $i := $tag.tags }}
+        {{- range $.Site.Taxonomies.tags.ByCount -}}
+            {{- if eq $i .Page.Title -}}
+                <li>
+                    <a href="{{ .Page.RelPermalink }}">
+                        <span><i class="fas fa-tags fa-fw" aria-hidden="true"></i></span>
+                        {{ .Page.Title }} <sup>{{ .Count }}</sup>
+                    </a>
+                </li>
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+</ul>
