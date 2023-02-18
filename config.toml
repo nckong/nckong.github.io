@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://nckong.github.io"
 theme = "LoveIt"
 title = "NCKong's Blog"
 
