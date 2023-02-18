@@ -132,7 +132,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       disclaimer = ""
     [params.home.tag]
       enable = true
-      tags = ["content", "configuration", "xxxxxxxx", "ccccccccccccccccc", "vvvvvvvvvv"]
+      tags = ["content", "configuration"]
     # Home page posts
     [params.home.posts]
       enable = true
