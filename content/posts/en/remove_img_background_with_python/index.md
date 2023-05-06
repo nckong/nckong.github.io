@@ -4,8 +4,6 @@ title: "Remove Image background with Python"
 date: 2023-03-17
 lastmod: 2023-03-17
 draft: false
-author: "NCKong"
-authorLink: ""
 description: "Remove Image background with Python"
 images: []
 resources:
