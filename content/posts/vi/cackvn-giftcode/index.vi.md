@@ -42,4 +42,4 @@ PHONGKHOIKIEMCA
 CACKACTIONC
 ```
 ## Link Giftcode
-- <a href="https://cuuam.gosu.vn/giftcode.html">Trang giftcode CACK</a>
+- <a href="https://cuuam.gosu.vn/giftcode">Trang giftcode CACK</a>
