@@ -29,7 +29,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # site default theme ["auto", "light", "dark"]
   defaultTheme = "auto"
   # description meta
-  description = "This is my blog web"
+  description = "This is my personal blog where I share everything"
 
   [params.header]
     # header mode ["fixed", "normal", "auto"]
@@ -139,7 +139,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 2
+      paginate = 5
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
@@ -505,7 +505,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = '<i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i>'
         post = ""
         name = "Posts"
-        url = "/posts/en"
+        url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
@@ -526,7 +526,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [languages.vi]
     weight = 2
     languageCode = "vi"
-    languageName = "Việt Nam"
+    languageName = "Vietnamese"
     hasCJKLanguage = true
     # Menu config
     [languages.vi.menu]
